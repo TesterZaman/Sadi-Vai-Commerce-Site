@@ -1,0 +1,331 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+/*menubar*/
+.contain {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    padding: .50% 0 1% 0;
+
+}
+
+.navbar {
+    text-align: center;
+    width: 75%;
+    border-radius: 15px;
+    margin: 0 12.5% 0 12.5%;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.navbar button,
+.list-btn button {
+    padding: 10px 20px 10px 20px;
+    font-size: 17px;
+    font-weight: 600;
+    transition: all .5s;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.navbar button:hover,
+.list-btn button:hover {
+    box-shadow: rgb(99, 255, 27) 0px 0px 5px 0px;
+    transform: scale(.80);
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    -webkit-transform: scale(.80);
+    -moz-transform: scale(.80);
+    -ms-transform: scale(.80);
+    -o-transform: scale(.80);
+}
+
+/*Slider*/
+.slider {
+    width: 60%;
+    height: auto;
+    margin: 0 20% 2% 20%;
+    background-color: black;
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    border-radius: 13px 13px 0 0;
+    -webkit-border-radius: 13px 13px 0 0;
+    -moz-border-radius: 13px 13px 0 0;
+    -ms-border-radius: 13px 13px 0 0;
+    -o-border-radius: 13px 13px 0 0;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    margin: auto;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    height: 6px;
+    width: 6px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+/*List products*/
+.list-contain {
+    width: 90%;
+    height: auto;
+    float: left;
+    text-align: center;
+    color: black;
+    margin: 0 5% 4% 5%;
+    padding: 0 0 1.5% 0px;
+}
+
+.list {
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.list-card {
+    width: 46%;
+    height: 350px;
+    float: left;
+    border-radius: 5px;
+    margin: 20px 2% 15px 2%;
+    box-shadow: 0px 0px 9px 3px rgb(150, 196, 160);
+    transition: ease-out 1.5s;
+    perspective: 1000px;
+    text-align: center;
+    -webkit-transition: ease-out 1.5s;
+    -moz-transition: ease-out 1.5s;
+    -ms-transition: ease-out 1.5s;
+    -o-transition: ease-out 1.5s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.list-card p {
+    font-size: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    text-align: center;
+}
+
+.list-des {
+    line-height: 20px;
+}
+
+.list-des img {
+    text-align: center;
+    width: 85%;
+    margin-left: 7%;
+    height: 85%;
+}
+
+.list-des span {
+    font-size: large;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.list-btn span {
+    text-align: justify;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.list-btn {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 1% 2% 1.5% 2%;
+}
+
+.list-inner {
+    position: absolute;
+    text-align: center;
+    transition: all 1.5s;
+    transform-style: preserve-3d;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 1.5s;
+    -moz-transition: all 1.5s;
+    -ms-transition: all 1.5s;
+    -o-transition: all 1.5s;
+}
+
+.list-card:hover .list-inner {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.list-des,
+.list-btn {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(0deg);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -moz-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+}
+
+.list-btn {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+/*Footer*/
+.foot {
+    width: 80%;
+    float: left;
+    text-align: center;
+    background-color: black;
+    color: antiquewhite;
+    padding: 10px 0 10px 0;
+}
+
+.info {
+    width: 20%;
+    float: left;
+    background-color: black;
+    color: antiquewhite;
+    padding: 10px 0 10px 0;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+ {
+    .list-card {
+        width: 90%;
+        margin-left: 5%;
+        padding-top: 3%;
+        height: 500px;
+    }
+
+    .list-des {
+        padding-bottom: 5%;
+    }
+    .slider{
+        width: 90%;
+        margin-left: 5%
+    }
+    .navbar{
+        width: 100%;
+        margin: 0;
+        text-align: justify;
+    }
+    .navbar button{
+        margin-bottom: 5%;
+    }
+    .info,.foot{
+        width: 100%;
+        text-align: center;
+    }
+}
